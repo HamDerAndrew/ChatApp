@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         //declare the chat messages window ListView
         ListView listOfMessages = (ListView)findViewById(R.id.message_window);
 
-        //suppose you want to retrieve "chats" in your Firebase DB:
+        //Open a query instance to Firebase database
         Query query = FirebaseDatabase.getInstance().getReference();
 
         //create FirebaseListOptions
